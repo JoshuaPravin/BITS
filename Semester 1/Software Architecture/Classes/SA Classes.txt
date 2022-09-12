@@ -1,0 +1,128 @@
+Module 1: Introduction to Software Architectures
+ Recorded Lecture 1.1
+	Introduction to the Course - https://youtu.be/jtVnIp7SAfg
+ Recorded Lecture 1.2
+	A Brief History of Software Architecture - https://youtu.be/cy2WRQSG8no
+ Recorded Lecture 1.3
+	Introduction to the Styles, Views and Rational’s 4+1 - https://youtu.be/5oyhXut0FXU
+ 
+Module 2: Structure of Software Architecture
+ Recorded Lecture 2.1
+	Three structures - https://youtu.be/R0iKH7x6oYQ
+ 
+Module 3: Introducing Software Quality
+ Recorded Lecture 3.1
+	Quality classes, Quality attribute, quality attribute scenario and architectural tactics - https://youtu.be/HwoMEPsoUio
+
+Module 4: Software Quality in detail-I
+ Recorded Lecture 4.1
+	Usability and its tactics - https://youtu.be/352a0FbKdxE
+ Recorded Lecture 4.2
+	Availability - https://youtu.be/hlD9jDdUSwc
+
+Module 5: Software Quality in Details - II
+ Recorded Lecture 5.1
+	Modifiability - https://youtu.be/eRjuzmju-Po
+ Recorded Lecture 5.2
+	Performance - https://youtu.be/7r6TTHnJp4o
+
+Module 6: Software Quality in Detail - III
+ Recorded Lecture 6.1
+	Security - https://youtu.be/r3iBZfOiSLM
+ Recorded Lecture 6.2
+	Testability - https://youtu.be/XfW6Co9FuxU
+ Recorded Lecture 6.3
+	Interoperability - https://youtu.be/kfm4I4gluoY
+
+Module 7 - Documenting architectureModeling Language
+ Recorded Lecture 7.1
+	Introduction to OO Design - https://youtu.be/zlpDbgaBd_E
+ Recorded Lecture 7.2
+	Introduction to UML - https://youtu.be/8jH84XBh7Fs
+
+Module 8 - Documenting ArchitectureMethod
+ Recorded Lecture 8.1
+	Documenting Architecture using UML - https://youtu.be/06RRZfxtQi8
+ Recorded Lecture 8.2
+	Introducing Agile methodology - https://youtu.be/UnR4JEj6xZ0
+ Recorded Lecture 8.3
+	Rational Unified Process - https://youtu.be/g2-9jsLOG1E
+
+Module 9 - Architecture Pattern - I
+ Recorded Lecture 9.1 & 9.2
+	Pattern Definition, Classification, Category and Intro to Layering - https://youtu.be/PGv8Ch0R3MU
+ Recorded Lecture 9.3
+	Layering Pattern - https://youtu.be/p8KSTj8aHiI
+
+Module 10 - Architecture Pattern - II
+ Recorded Lecture 10.1
+	Pipe and Filter - https://youtu.be/KYR2gpcQ3ro
+ Recorded Lecture 10.2
+	Blackboard - https://youtu.be/FZ8gaTzUs_Q
+
+Module 11 - Architecture Pattern - III
+ Recorded Lecture 11.1
+	Distributed Syste - https://youtu.be/mw2dguKNg14
+
+Module 12 - Architecture Pattern - IV
+ Recorded Lecture 12.1 & 12.2
+	MVC Intro and detail - https://youtu.be/Ao-oKWArNLs
+
+Module 13 - Architecture Pattern - V
+ Recorded Lecture 13.1 & 13.2
+	Microkerne - https://youtu.be/OraoyAPKeIM
+ Recorded Lecture 13.3
+	Reflection - https://youtu.be/jCmR2TyOU9k
+
+Module 14 - Design Pattern
+ Recorded Lecture 14.1
+	Introduction - https://youtu.be/v5YJ4qh6Zec
+ Recorded Lecture 14.2
+	Creational Pattern - https://youtu.be/tPGti2LEH3s
+
+Module 15 - Design Pattern - Structure
+ Recorded Lecture 15.1
+	Decorator - https://youtu.be/VyfE6xOKbyA
+ Recorded Lecture 15.2
+	Adaptor Pattern - https://youtu.be/SEOEW12Hgeo
+ Recorded Lecture 15.3
+	Composite Pattern - https://youtu.be/gfIeFJtTj3Q
+ Recorded Lecture 15.4
+	Proxy Pattern - https://youtu.be/b8WqGrdih0w
+
+Module 16 - Design Pattern - Behavior
+ Recorded Lecture 16.1
+	Iterator and Observer - https://youtu.be/6Q3eeqpm7Z4
+ Recorded Lecture 16.2
+	Strategy - https://youtu.be/usqTtZkC9_0
+ Recorded Lecture 16.3
+	Visitor - https://youtu.be/O2MkqygdmkE
+ Recorded Lecture 16.4
+	Command - https://youtu.be/FuoqPl8YbqQ
+
+Module 17 - Introduction to Cloud Computing
+ Recorded Lecture 17.1
+	Introduction and Virtualization basic - https://youtu.be/7jFmvVT0Nps
+ Recorded Lecture 17.2
+	IAAS and Data storage - https://youtu.be/7oIV3hEvoVg
+
+Module 18 - Software architecture in the context of Cloud
+ Recorded Lecture 18.1
+	Quality attribute revisited - https://youtu.be/C_QlEGwWLvM
+ Recorded Lecture 18.2
+	Multi Tenant Architecture - https://youtu.be/Fxx7HyAOFuw
+	Micro Services - https://youtu.be/i1X1I_c155k
+	CAP Theorem - https://youtu.be/sHElGaiUrQE
+
+Module 19 - Designing and Documenting the Architecture # 1
+ Recorded Lecture 19.1
+	Architecture and Requirements - https://youtu.be/OZlSomS56vI
+	SA RL 19.1File
+ Recorded Lecture 19.2
+	Designing an Architecture - https://youtu.be/GNZIGpQYero
+	SA RL 19.2File
+
+Module 20 - Designing and Documenting the Architecture # 2
+ Recorded Lecture 20.1
+	Designing and Documenting the Architecture # 2 - https://youtu.be/UCcUEKjiisU
+	SA RL 20File

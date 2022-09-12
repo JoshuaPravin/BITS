@@ -1,0 +1,50 @@
+Module 1 - Introduction to Agile Methods
+ 1.1: Traditional Software Development PracticesPage - https://youtu.be/-16SlToBI8M
+ 1.2: Motivation for Agile MethodsPage - https://youtu.be/MAZRCCOdkQw
+ 1.3: Benefits of Agile PracticesPage - https://youtu.be/jTwRlVDiIYY
+ 
+Module 2 - Basics of Agile Software Development
+ 2.1: Iterative & Incremental ApproachesPage - https://youtu.be/zKDMDMRgtR4
+ 2.2: Popular Agile MethodsPage - https://youtu.be/ZOTx46HMKnw
+ 
+Module 3 - Agile principles and manifesto
+ 3.1: Vision and Principles of Agile Methods - https://youtu.be/bVaRW9DY_1k
+ 
+Module 4 - Agile Methodologies
+ 4.1: Overview of SCRUM MethodologyPage - https://youtu.be/TaApwSWn82Y
+ 4.2: Extreme Programming (XP)Page - https://youtu.be/_gcPv6d5GI0
+ 4.3: Test-Driven Development (TDD)Page - https://youtu.be/_Khm-3JMNz4
+ 
+Module 5 - Agile Requirements
+ 5.1: Requirements ManagementPage - https://youtu.be/jigVfQc0TIs
+ 5.2: Effort EstimationPage - https://youtu.be/9bnbhYMwi4U
+ 
+Module 6 - Release Planning in Agile
+ 6.1: Characteristics of Agile PlanningPage - https://youtu.be/JWaGhun57ZM
+ 6.2: Agile Release PlanningPage - https://youtu.be/DwTqxnJX7cU
+ 
+Module 7 - Iteration Planning
+ 7.1: Sprint as an IterationPage - https://youtu.be/V7rOhIKN_0E
+ 7.2: Velocity and Capacity based PlanningPage - https://youtu.be/PmqWrJzJWwI
+ 7.3: Release Sprint PlanningPage - https://youtu.be/a-qInJM56Vw
+ 
+Module 8 - Executing a Sprint
+ 8.1: Sprint CeremoniesPage - https://youtu.be/BOdSBD3ea30
+ 8.2: Sprint Reviews and RetrospectivesPage - https://youtu.be/w69QsJEz97k
+ 
+Module 9 - Agile Metrics and Tools
+ 9.1: Overview of Agile MetricsPage - https://youtu.be/PgMZm6flXTo
+ 9.2: Tools for Agile Project ManagementPage - https://youtu.be/fUXZMR7-vmI
+ 
+Module 10 - Quality Management in Agile
+ 10.1: Managing Quality in Agile ProjectPage - https://youtu.be/EZkvbOdqx6s
+ 10.2: Managing Risks in AgilePage - https://youtu.be/S3UKpTfYWKI
+ 
+Module 11 - Agile Myths and Pitfalls
+ 11.1: Common Mistakes and Myths in AgilePage - https://youtu.be/AyeTXrxXEpw
+ 11.2: Predictive Planning vs Adaptive PlanningPage - https://youtu.be/tM5qrMXZ8dA
+ 11.3: Distributed AgilePage - https://youtu.be/vky29Eqvl-M
+ 
+Module 12 - Ensuring Agile Success
+ 12.1: Managing ChangePage - https://youtu.be/7JNZr1ZMxMQ
+ 12.2: Evolution of Agile with TimesPage - https://youtu.be/GjqSpJe8Bvk

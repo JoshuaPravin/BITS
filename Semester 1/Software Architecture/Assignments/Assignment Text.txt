@@ -1,0 +1,146 @@
+Purpose of the System (Goal)
+> The goal of the system is to develop a web page which will allow customers to order a mobile phone on a subscription basis.
+> The web page should check his European credit history and initiate a 0 Euro Credit Card payment to initiate the subscription.
+> A recurring payment of 'x' Euros should be deducted from the customer's Credit card every month.
+
+Functional Requirements
+> A customer must be able to browse through the website user interface and choose among different mobile phones.
+> Once the product is chosen, the user should be provided with an option to buy the mobile phone as a one time payment or through subscription.
+> if the customer chooses subscription, the website should get the details of the customer.
+> Once the customer provides his details, the system should run a Credit History check of the customer with third party Credit History Checker APIs
+> Once the credit history of the customer is checked, the customer should be provided a payment gateway to initiate a 0 Euro payment and validate the Credit card.
+> Once the Credit card of the customer is validated, assign the subscription for the mobile phone to the customer and send Order details through email.
+
+Non Functional Requirements
+> Security - The system should be completely secure as it involves Payment and customer's credit card details and customer's personal details for Credit History check
+> Reliability - Since the order scanario involves many steps, the system should be reliable without any connectivity issues or API response issues for both internal and external APIs. 
+> Performance - All the API checks should be instant and the customer should have very little wait time since it is a purchase order transaction.
+> Portability - The system should be able to work across different devices like mobile phones and across different locations around the European region.
+> Scalability - During new mobile phone releases, the system should be scaled up to handle the extra web traffic on it's website and should work fluently if there are many concurrent users as well. The system should be able to scaled back to old configurations if there are no new mobile phone releases.
+> Flexibility - During new mobile phone releases, the website should be able to handle the extra web traffic on it's website and should work fluently if there are many concurrent users
+> Reusability - The system should be able to be used again for not only mobile phones but also for add on products like headphones and phone cases as well.
+> Maintainability - The system should be easily maintainable with an "Admin on Behalf of user" functionality for each and every single API for easy debugging and maintainence.
+
+Utility Tree
+> utility
+	> Security
+		> Data Confidentiality
+			>> All data stored in the Subscription system should be encrypted with TrueCrypt. (H,M)
+			>> Credit card transactions are secure 99.999% of the time. (H,M)
+		> Data Integrity
+			>> Customer's PII should never be stored in database. (H,M)
+			>> Third Party Payment Service provider's reference number should be generated 99.999% of the time. (H,M)
+		> Access Control
+			>> Customer has to authenticate his credit card with Adyen before creating subscriptions. (H,M)
+	
+	> Reliability
+		> Hardware Failure
+			>> The Subscription system must be in operation for 99% of the year. (H,H)
+			>> Whenever North Europe region faces any issues, it's request should be redirected to East Europe region's server in less than 3 seconds (H,M)
+			>> Power outage at North Europe region must be detected and traffic should be redirected to East Europe region's server in less than 10 seconds (M,L)
+		> Data Consumption
+			>> The subscription system should be able to support multiple devices (M,M)
+			>> All data in the subscription system should be backed up before end of each session. (H,M)
+
+	> Performance
+		> Data Latency
+			>> Reduce storage latency in Postgres DB by less that 300 milliseconds (M,M)
+		
+		> Transaction Throughput
+			>> The payment transaction should be delivered from the Third Party Payment Service Provider without any delays or wait times for the customer. (H,H)
+			>> The credit history check for the user should be done with the Third Party Credit History Checker in less than 5 seconds (H,H)
+			
+	> Reusability
+		> New Products
+			>> New mobile phone or add on products should be added in Third Party Subscription Platform within 20 man hours (L,L)
+			>> Change the web user interface for new mobile phone within 10 man hours (M,L)
+			
+	> Portability
+		> User Satisfaction
+			>> The Order subscription page must be available in all popular web browsers (M,L)
+			>> The subscription system should be available in all screen sizes and devices (L,L)
+			>> The order page should be accessible within 8 clicks (M,M)
+			
+	> Scalability
+		> New Product
+			>> The subscription system must be scaled up to handle new mobile phone order traffic within 4 man hours (M,M)
+			>> The subscription system must be scaled down on normal days to older configuration within 1 man hour (L,L)
+			
+
+Tactics for achieving ASRs
+> Security
+	>> Third Party Credit History Checker API is used with OAuth authentication to provide sucure Credit History check of the customer.
+	>> A new user instance is created for the customer in the Third Party Payment Service Provider's services which will maintain the customer's personal details. The system will not store any customer data as per GDPR rules.
+	>> The subscription data is stored in Azure database which has a Postgres database with data security provided by Microsoft Azure.
+	>> The website is developed and code is created in such a way that there is no SQL injection issues.
+	>> The credit history of the user is not stored in the Postgres database.
+	>> Only the Third Party Payment Service Provider's reference number of the customer is stored in the Postgres database and no Credit card information is stored anywhere in the system.
+	
+> Reliability and Performance
+	>> The system is developed in such a way that each API is retried at least twice if there is no response from the API within two minutes.
+	>> In order to reduce the wait time of the user, the code is developed in an asynchronous manner.
+	>> The code is also developed with enough Multi-threading so that the necessary background operations can be carried out simultaneously without any wait time for the customer.
+	>> The database queries are done using proper indexing and prepared statements inorder to do any bulk database operations.
+	
+> Portability
+	>> The code is deployed in Azure App Services and the uptime and performance of the App Service determines the performance of the website.
+	>> The App Service inside Azure is deployed in various Availability zones across Europe with proper Region Pairs.
+	>> The App Service is also deployed in North Europe and East Europe as part of Region Pairing.
+	>> The code is developed with Mobile first approach and hence the website will be responsive for all devices like Mobiles, Tablets, Laptops and bigger screens.
+	
+> Scalability and Flexibility
+	>> The web application will be hosted in Azure App Service. Azure provides an easy way of scaling up the RAM of the app service.
+	>> The RAM of the web app is increases to 16Gb whenever a new phone releases. During normal days, the App Service is scaled back down to 8Gb.
+	>> The Postgres DB is scaled up to Higher version specially for new phone releases.
+	>> Whenever more traffic is received in the web application, Azure provides alert to the Application Support team and the RAM is increased manually whenever necessary.
+
+> Reusability and Maintainability
+	>> The subscription process is implemented mainly for mobile phones. All the subscriptions are maintained in a separate Third Party Subscription platform.
+	>> The same system is to be reused in future for even add ons or other important products by using the same subscription process under the Third Party subscription platform.
+	>> All the subscription data are maintained simultaneously in both the Third Party Subscription platform and in the Postgres database to prevent data loss.
+	>> The Subscription system admin should be able to do any operations on behalf of the customer just by providing the email ID of the customer for easy debugging and maintainence.
+
+Software architecture diagram
+Done	
+
+Context Diagram
+
+
+Component & Connection Diagram
+
+
+Deployment Diagram
+
+
+Working of the System
+> A potential customer browses through the Mobile phone website and goes through the different mobile phone models that are on sale in the website.
+> The website is hosted in Microsoft Azure App Service.
+> The App service in Azure is deployed among various regions within Europe with North Europe and West Europe being the primary region pair.
+> The App service is also hosted with 8Gb RAM for normal days and scaled up to 16Gb whenever a new mobile phone model is released.
+> Once the user finds a desired mobile phone from the website, the user clicks on Purchase, the website will provide an option to purchase the mobile phone with both Normal purchase or Subscription.
+> If the user clicks on Subscription, the website proceeds to ask the customer to provide personal information like Name, address etc.
+> These PII (Personally Identifiable Information) is never stored in any database as per GDPR policy for Europe. 
+> The website sends all the data directly to Boniversum API. Boniversum is a third party provider who provides Credit History Check for all individuals in Europe.
+> Once the credit check history is checked completely and if the customer has an adequate Credit score, the website redirects the customer to an Adyen session.
+> An Adyen is also a third party vendor who handles Credit card and payment operations.
+> The customer is prompted to provide his Credit card details and initiate a 0 Euro payment from that credit card for verification in Adyen.
+> The reference number is provided by Adyen to the system. This reference number is stored in the Postgres database along with the Basic customer details and Order details.
+> The Postgres database is also hosted in a database server in Microsoft Azure.
+> Once the data is stored, the subscription is assigned to the particular customer in Zoura system.
+> Zoura is a third party subscription platform vendor who maintains the subscription data in their systems.
+> Once the subscription is assigned, the website sends an email to the customer with the subscription details.
+> The system using Sendgrid another third party email operations vendor for sending the email to the customer.
+> The content of the email is generated using Contentful which is another third party vendor for creating contents as a template for various operations.
+> Zuora platform and Adyen maintains the recurring payment model and deducts 'x' Euros from the customer's credit card every month.
+
+Key Learnings
+  From this assignment, I learnt,
+> Architecturally Significant Requirements are requirements from the Requirement document that are absolutely necessary for the system to function without any issues.
+> How to identify Architecturally Significant Requirements from the SRS document.
+> How to identify Architecturally Significant Requirements from directly interacting with different stakeholders, in this case, Adyen, Boniversum and Zoura.
+> How to manage data for each requirement and delegate storage of Personally Identifiable Information in proper storage as per the European GDPR rules.
+> The website is developed with Asynchronous coding to reduce the wait time for the users since it is a multi step process to create a subscription order through the website.
+> Ihe Postgres database should be hosted in a Cloud service provider instead of a local data center or virtual machine to improve scalability and reliability for different situations.
+> The website should be deployed in a Cloud Service Provider's environment instead of a local virtual machine environment for better performance and scalability that the Cloud service provider provides for the developer.
+> How to handle data and interact with different third party vendors and how the system architecture should be developed keeping in mind the different stakeholders that are involved.
+

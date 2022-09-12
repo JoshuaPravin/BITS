@@ -1,0 +1,170 @@
+Module 1: SDLC Models : Waterfall, Unified Process, Agile.
+ Recorded Lecture 1.1
+	Programming Paradigms - Procedural Oriented Programming, Object Oriented Programming. - https://youtu.be/_zqppDTWV64
+	What is Software Development Life Cycle (SDLC)? - https://youtu.be/HHrKZlGZylE
+	Waterfall Model: How it works? When to apply waterfall model? - https://youtu.be/AOqc4KP6s6I
+
+ Recorded Lecture 1.2
+	Overview of Unified Process. - https://youtu.be/9vGa1JpYzr8
+	UP : An Iterative & Evolutionary Development. - https://youtu.be/dtDhYwsYan0
+	UP Phases & Disciplines. - https://youtu.be/2-0ANlXJvAI
+
+ Recorded Lecture 1.3
+	Agile Principles & Manifesto. - https://youtu.be/qWFavmC49AY
+	Xtreme Programming (XP). - https://youtu.be/i_nsQBHcQiU
+	Scrum. - https://youtu.be/N_R7wCF1wk4
+	Agile Modelling. - https://youtu.be/Hih3CDKOrlc
+	Test Driven Development. - https://youtu.be/Z4mTBCT1Uys
+	Refactoring & Continuous Integration. - https://youtu.be/mybLZTsloTI
+
+ Recorded Lecture 1.4
+	Introduction to OOA & OOD. - https://youtu.be/MAj7-4VAKvw
+	Overview of UML. - https://youtu.be/TOv9CNHNMc8
+
+ Recorded Lecture 1.5
+	Concept of Class & Object. - https://youtu.be/vS1CiH4BBds
+	Class Relationships in UML. - https://youtu.be/Qbvg3iQAJYM
+
+Module 2: Starting with Object Oriented Analysis: Building Use Case Model
+ Recorded Lecture 2.1
+	Point of Sale (PoS) Case Study. - https://youtu.be/PUUYTZpT_h8
+	Requirement Categories - Functional & Non Functional Requirements. - https://youtu.be/EtL-OonQUFw
+	What is Use Case Diagram & Use Cases? - https://youtu.be/LxVOtWy50oo
+
+ Recorded Lecture 2.2
+	Drawing Use Case Diagram for PoS. - https://youtu.be/S7uDFv7-sLs
+
+ Recorded Lecture 2.3
+	Types of Use Cases. - https://youtu.be/ZiB62fUZr7Q
+	Write Fully Dressed Use Case for one scenario in PoS System. - https://youtu.be/EzEDi6s_3qc
+	Styles of Use Cases. - https://youtu.be/CjjLn8k3H8o
+
+Module 3: Creating System Level Artefacts : Domain Model, SSD & Operation Contracts
+ Recorded Lecture 3.1
+	What is Domain Model? - https://youtu.be/TORpXouxxt0
+	How Domain Model is represented in UML? - https://youtu.be/fUu4RDUMHXE
+	Identification of Domain Concepts from Use Case - https://youtu.be/eW1KnYbL2T0
+	Identification of relationships among domain concepts - https://youtu.be/4JRpxtfHOjk
+	Finding multiplicity among domain concpets - https://youtu.be/qQxDzmaRGfs
+	Adding attributes to Domain Model - https://youtu.be/pYPGcC1XMMQ
+	Significance of Domain Model - https://youtu.be/POuXAxJ_k6I
+
+ Recorded Lecture 3.2
+	What is System Sequence Diagram? - https://youtu.be/e7qwgNgSmuw
+	Drawing SSD for PoS - https://youtu.be/dzPrSqYCpwQ
+	Significance of SSD - https://youtu.be/4uDH5pScEjU
+
+ Recorded Lecture 3.3
+	What is Operation Contract? - https://youtu.be/uAqtEZUBJeg
+	Represent Operation Contract in UML - https://youtu.be/02EK5oyiODs
+	Writing Operation Contract for PoS - https://youtu.be/9bXqsqAR7dY
+
+Module 4: Getting into Object Oriented Design : Refinements in Use Cases & Domain Model, Interaction Diagrams, State Transition Diagram, Activity Diagram
+ Recorded Lecture 4.1
+	Relating Use Cases: includes, extends relationships - https://youtu.be/rzhbVhzFVZ8
+	Refining Domain Model: Derived Attributes - https://youtu.be/SCt0qSwu4tM
+	Refining Domain Model: Association Classes - https://youtu.be/3lZpcsYdjWI
+
+ Recorded Lecture 4.2
+	What is Interaction Diagram? - https://youtu.be/loutG1tbaWg
+	Types of interaction Diagrams - https://youtu.be/Wcg5xMY2HJQ
+	Representations of Interaction Diagrams in UML - https://youtu.be/istz9kt-2k4
+	Drawing Interaction Diagrams for PoS - https://youtu.be/k1ga0LcumwA
+
+ Recorded Lecture 4.3
+	Introduction to State Transition Diagram - https://youtu.be/O0VfL-0Xqkk
+	Representing State Transition Diagram in UML - https://youtu.be/alPSY_Ha7c8
+
+ Recorded Lecture 4.4
+	What is Activity Diagram? - https://youtu.be/FzgcHufBmwE
+	Representing Activity Diagram in UML - https://youtu.be/CThFUobdhnE
+
+Module 5: Visibility between Objects, Class Diagram, Package Diagram
+ Recorded Lecture 5.1
+	What is Visibility among objects? - https://youtu.be/i2NIhKA37wI
+	Significance of finding Visibility - https://youtu.be/yyddSE6zZjA
+	Types of Visibility - Attribute, Parameter, Local, Global - https://youtu.be/siCHNCwI8f4
+	Attribute Visibility - https://youtu.be/HKyslVBytOg
+	Parameter Visibility - https://youtu.be/4KWCdM7hnkM
+	Local Visibility - https://youtu.be/q8ZewlRVdUM
+	Global Visibility - https://youtu.be/ASXTwNSaAG0
+
+ Recorded Lecture 5.2
+	Use Domain Model to draw Class diagram - https://youtu.be/ovv80tY5C_A
+	Representing Class in UML - https://youtu.be/XQXDuXNomLc
+	Relationship among Classes in Class Diagram - https://youtu.be/HwQMfsv8_yw
+	Guidelines to draw Class Diagram - https://youtu.be/h8Qj9vOiuWI
+	Draw Class Diagram for PoS System - https://youtu.be/vPogBOejSHw
+
+ Recorded Lecture 5.3
+	Grouping Classes in Package Diagram - https://youtu.be/17veEDw6530
+	Level and Partitions for Package Diagram - https://youtu.be/Yqdc7tBYyFM
+	Showing Dependency in Package Diagram - https://youtu.be/605z8O16M98
+	Guidelines for Package Diagram - https://youtu.be/IW287XIwuYM
+	Drawing Package Diagram for PoS System - https://youtu.be/teTKgxRzStM
+
+Module 6: Design patterns: GRASP, Additional Patterns, SOLID Design Principles
+ Recorded Lecture 6.1
+	What is Pattern? What is Design Pattern? - https://youtu.be/AUNOLQf9U18
+	Types of Design Patterns: GRASP, GoF - https://youtu.be/IZ9JB1qRV5Y
+	Advantages of using Design Patterns - https://youtu.be/6nxUf48pdys
+	Design Patterns: Designer's and Programmer's perspective - https://youtu.be/O3RQ6bauffY
+
+ Recorded Lecture 6.2
+	What is Responsibility Assignment Problem? - https://youtu.be/GhZaYJIsJbY
+	GRASP Patterns - Information Expert, Controller, Creator, Low Coupling & High Cohesion - https://youtu.be/S0EeGxPIqYA
+	Information Expert Pattern - Problem & Solution - https://youtu.be/-31kTNbAS-4
+	Application of Information Expert in PoS System - https://youtu.be/ac3iDQEl9jw
+	Controller Pattern - Problem & Solution - https://youtu.be/GX7U4sUPY7U
+	Application of Controller Pattern in PoS System  - https://youtu.be/Ctenwt-opbo
+	Creator Pattern - Problem & Solution - https://youtu.be/k85WtE2pVJs
+	Application of Creator Pattern in PoS System - https://youtu.be/Cpxgyq1npGw
+
+ Recorded Lecture 6.3
+	Low Coupling Pattern - Problem & Solution - https://youtu.be/EnSAhAN24W4
+	Application of Low Coupling to optimize the design - https://youtu.be/R8XRIfRRqVI
+	High Cohesion Pattern - Problem & Solution - https://youtu.be/9XuXxzBVYVo
+	Application of High Cohesion Pattern to optimize the design - https://youtu.be/qlRek2UA2C8
+
+ Recorded Lecture 6.4
+	Additional Patterns: Polymorphism, Pure Fabrication, Indirection & Protected Variation - https://youtu.be/Zm3It30nugI
+	Polymorphism Pattern - Problem & Solution - https://youtu.be/I-bw75_0gNU
+	Application of Polymorphism Pattern to optimize the design - https://youtu.be/W3V0sjN0gRg
+	Pure Fabrication Pattern - Problem & Solution - https://youtu.be/V_Okdtaa7ng
+	Application of Pure Fabrication Pattern to optimize the design - https://youtu.be/kKOommTrdOo
+	Indirection Pattern - Problem & Solution - https://youtu.be/tAyxQjipo70
+	Application of Indirection Pattern to optimize the design - https://youtu.be/TK41XUrMM_I
+	Protected Variation Pattern - Problem & Solution - https://youtu.be/F5EKrZHTS_U
+	Application of Protected Variation Pattern to optimize the design - https://youtu.be/jNoOCzzcnmo
+
+ Recorded Lecture 6.5
+	Introduction to SOLID Design Principles - https://youtu.be/YpZls4d98u8
+	Single Responsibility Principle (SRP) - https://youtu.be/VftpBGCrIFY
+	Open-Closed Principle (OCP) - https://youtu.be/_TT6Gyq8gGA
+	Liskov Substitution Principle (LSP) - https://youtu.be/cqiGYU5RqIA
+	Interface Segregation Principle (ISP) - https://youtu.be/WU8i0I67V5A
+	Dependency Inversion Principle (DIP) - https://youtu.be/HCnqNJEdM-o
+
+Module 7: Design Patterns: Gang Of Four (GoF) Pattern
+ Recorded Lecture 7.1
+	Adapter Pattern - Problem & Solution - https://youtu.be/wDcYW_WDYsY
+	Application of Adapter Pattern to PoS - https://youtu.be/iBdXylFIBcY
+	Factory Pattern - Problem & Solution - https://youtu.be/3o3dDp04vLw
+	Application of Factory Pattern to PoS - https://youtu.be/kv8riBzuVN4
+
+ Recorded Lecture 7.2
+	Singleton Pattern - Problem & Solution - https://youtu.be/-c7ToDmQzDQ
+	Application of Singleton Pattern to PoS - https://youtu.be/9vjhODPGcu4
+	Strategy Pattern - Problem & Solution - https://youtu.be/wrXk4qZrj6o
+	Application of Strategy Pattern to PoS - https://youtu.be/AQebPhDfPfA
+
+Module 8: Design Patterns: Gang of Four (GoF) Pattern
+ Recorded Lecture 8.1
+	Composite Pattern - Problem & Solution - https://youtu.be/Yjmh8Ua-YNY
+	Application of Composite Pattern to PoS - https://youtu.be/c4o8SSJ2XcA
+	Facade Pattern - Problem & Solution - https://youtu.be/pRRN1OUG8Us
+	Application of Facade Pattern to PoS - https://youtu.be/XS3tXHVN2R4
+
+ Recorded Lecture 8.2
+	Observer/Delegation Event/Publish Subscribe Pattern – Problem & Solution - https://youtu.be/4_gOWPn21oY
+	Application of Publish Subscribe Pattern to PoS - https://youtu.be/hax9aBb-J1Q

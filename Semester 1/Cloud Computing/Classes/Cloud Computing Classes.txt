@@ -1,0 +1,64 @@
+Module 1 - Introduction to Cloud Computing
+ Recorded Lecture 1.1 - Cloud Computing, Services, Deployment Models - http://www.youtube.com/embed/YBmsQ3ITbP8?modestbranding=1&showsearch=0&autohide=1&showinfo=0&rel=0&frameborder=0
+ Recorded Lecture 1.2 - 3-4-5 Rule of CC - http://www.youtube.com/embed/S_pmEQVauQ4?modestbranding=1&showsearch=0&autohide=1&showinfo=0&rel=0&frameborder=0
+ Recorded Lecture 1.3 - 3-4-5 Rule of CC Cloud Providers - http://www.youtube.com/embed/skGOi_vEoBE?modestbranding=1&showsearch=0&autohide=1&showinfo=0&rel=0&frameborder=0
+
+Module 2 - Virtualization Techniques and Types
+ Recorded Lecture 2.1 - Virtualization - http://www.youtube.com/embed/c0xbj_Im6is?modestbranding=1&showsearch=0&autohide=1&showinfo=0&rel=0&frameborder=0
+ Recorded Lecture 2.2 - Hypervisor - http://www.youtube.com/embed/5Ppq6YbDq1A?modestbranding=1&showsearch=0&autohide=1&showinfo=0&rel=0&frameborder=0
+ Recorded Lecture 2.3 - Types of Virtualization - http://www.youtube.com/embed/WLobEA8YhIg?modestbranding=1&showsearch=0&autohide=1&showinfo=0&rel=0&frameborder=0
+ Recorded Lecture 2.4 - SW Virtualization - http://www.youtube.com/embed/T8aPcezET3E?modestbranding=1&showsearch=0&autohide=1&showinfo=0&rel=0&frameborder=0
+ Recorded Lecture 2.5 - Lab Demo - http://www.youtube.com/embed/L42mb5Rbj4E?modestbranding=1&showsearch=0&autohide=1&showinfo=0&rel=0&frameborder=0
+ Recorded Lecture 2.6 - Lab Demo - http://www.youtube.com/embed/phCWC7AgxYM?modestbranding=1&showsearch=0&autohide=1&showinfo=0&rel=0&frameborder=0
+ Recorded Lecture 2.7 - Lab Demo - http://www.youtube.com/embed/EYqwMulUKWY?modestbranding=1&showsearch=0&autohide=1&showinfo=0&rel=0&frameborder=0
+
+Module 3 - Infrastructure as a Service Managing Virtual Resources on the Cloud
+ Recorded Lecture 3.1 - IaaS - https://youtu.be/nCHBKBDElHE
+ Recorded Lecture 3.2 - IaaS examples - https://youtu.be/QY5u4pGfV2Y?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 3.3 - Reference Model of AWS - https://youtu.be/3-0VIvaaVt0?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 3.4 - Amazon cloud services - Compute, Database, Storage - https://youtu.be/JH0A37tO-rk?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 3.5 - Region Vs Availability zones - https://youtu.be/emmJuPRahf8?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Lab Experiments 
+	Case Study - Openstack - https://youtu.be/_xhACOLKV50?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+	AWS_S3-Object Storage - https://youtu.be/FxjrF4B-C34?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+	Openstack Install Setup - https://youtu.be/x5tuyzwq16k?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+	OS Instance Creation - https://youtu.be/wzVSGGg4fsY?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+	OS Instance Create With Vol - https://youtu.be/G1ZY4RorBiw?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+	OS Swift Object Storage - https://youtu.be/QFkfSgjJddI?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+	OS LoadBalancer Manual - https://youtu.be/d4wvfZAsf_g?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+	OS InstanceCreate Heat Provision - https://youtu.be/kSoKpjrvlgg?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+	OS LoadBalancer Heat Provision - https://youtu.be/uhWkUv68gGM?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+	Vagrant Provision WebServer - https://youtu.be/W-01aTchZ4U?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+	Part1 Proxmox Cluster Provision Migration - https://youtu.be/a1ONKlqLENI?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+	Part2 Proxmox Cluster Provision Migration - https://youtu.be/k7AkA21fb44?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+
+Module 4 - Platform as a Service
+ Recorded Lecture 4.1 - Introduction to PaaS - https://youtu.be/Nmm-J-5_vC8?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 4.2 - PaaS examples - https://youtu.be/LkOiLa_pg5c?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 4.3 - Windows Azure - https://youtu.be/pueF_fw3jis?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 4.4 - 5 Principles of UI Design - AWS PaaS - https://youtu.be/LJ2KmenTbro?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 4.5 - Introduction Google app engine - https://youtu.be/NZEgErW5f2I?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 4.6 - Google app engine demo - https://youtu.be/H52Fa6yH_A4?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+
+Module 5 - Software as a Service
+ Recorded Lecture 5.1 - Introduction to SaaS - https://youtu.be/qOUqO8om7bg?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 5.2 - Pros and Cons of SaaS model - https://youtu.be/vauKJ3K1aEI?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 5.3 - Applications of SaaS - https://youtu.be/lOG4gudjqhI?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 5.4 - Traditional packaged Software Vs SaaS - https://youtu.be/K7-AVEV__v4?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+
+Module 6 - Capacity management and Scheduling in cloud computing
+ Recorded Lecture 6.1 - Capacity management and Scheduling - https://youtu.be/oD1fzGWQJ5M?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 6.2 - Distributed management of virtual machines - https://youtu.be/nBXRjUrCDc8?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 6.3 - Reservation-based provisioning of virtualized resource - https://youtu.be/iC0VNja5Rdg?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 6.4 - Provisioning to meet SLA commitments - https://youtu.be/QzvumXTTrkQ?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+
+Module 7 - Issues and Challenges : Availability, Multi-Tenancy, Security and SLA
+ Recorded Lecture 7.1 - Multi-Tenancy, 4 levels of multi tenancy - https://youtu.be/h16EZ-9MbTo?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 7.2 - Multi-tenant models for cloud - https://youtu.be/xLxz-zC4-zQ?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 7.3 - Introduction to cloud security - https://youtu.be/VIedtLWdv78?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+
+Module 8 - Distributed File System (DFS) and Hadoop
+ Recorded Lecture 8.1 - Introduction to Distributed File System (DFS) - https://youtu.be/GpBSnRJTU5I?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 8.2 - Case Study GFS - https://youtu.be/qxAid2-S5T8?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 8.3 - Case Study HDFS - https://youtu.be/DVK9ekEWYas?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
+ Recorded Lecture 8.4 - Hadoop components and importance of MapReduce - https://youtu.be/Vzf6Wh_L8i4?list=PLvvQ7qimTOkmJFGS_uYlOA423PlvVmxOg
